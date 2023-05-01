@@ -1,0 +1,11 @@
+<view class="container">
+  <image class="image" src="{{imgPath}}" mode="aspectFit" bindtap="previewImg"></image>
+  <button bindtap="selectImg">选择图片</button>
+  <image class="image" src="{{imgPath1}}" mode="aspectFit"></image>
+  <view id="chooseSMS" wx:if="{{isPhone}}">
+    <text style="font-size: xx-small;margin-right: 20px;width: 30vw;">是否接受打印结果短信通知？</text>
+    <view class="form-btn {{currentIndex==1?'form-active':''}}" id="1" bindtap="ok">允许</view>
+    <view class="form-btn {{currentIndex==2?'form-active':''}}" id="2" bindtap="ok" style="float: right;">拒绝</view>
+  </view>
+  <button bindtap="loadImg">上传图片</button>
+</view>

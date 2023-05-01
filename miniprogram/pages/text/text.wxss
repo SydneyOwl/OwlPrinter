@@ -1,0 +1,72 @@
+.form-btn {
+  position: relative;
+  display: inline-block;
+  height:36px;
+  width: 30%;
+  margin: 10px auto;
+  text-align: center;
+  line-height: 36px;
+  border-radius: 5px;
+  background: #eee;
+  color: #777;
+}
+/* 选中时添加这个 样式 */
+.form-active {
+  background: #dae9fd;
+  color: #23b8ff;
+}
+#chooseSMS{
+  display: flex;
+  margin: 20px auto;
+  align-items: center;
+}
+ /* 三角形 */
+.form-active::before {
+  content: '';
+  display: inline-block;
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  width: 0;
+  height: 0;
+  border-bottom: 20px solid #23b8ff;
+  border-left: 20px solid transparent; 
+}
+/* 小勾 */
+.form-active::after {
+  content: '';
+  position: absolute;
+  right: 1px;
+  bottom: 5px;
+  width: 8px;
+  height: 4px;
+  display: inline-block;
+  border: 1px solid #fff;
+  border-width: 0 0 1px 1px;
+  transform: rotate(-45deg);
+  -ms-transform: rotate(-45deg);
+  -moz-transform: rotate(-45deg);
+  -webkit-transform: rotate(-45deg);
+  -o-transform: rotate(-45deg);
+  vertical-align: baseline; 
+}
+.view-contain-ti {
+  display: flex;
+  height: 180px;
+  margin: 20px;
+  border: 3rpx solid #faca82;
+  border-radius: 10rpx;
+}
+
+.text-ti {
+  position: absolute;
+  font-size: 12px;
+  background: white;
+  margin: -10px 0 0 10px;
+  padding: 0 5px;
+  color: rgb(144, 147, 167);
+}
+
+.owls {
+  margin: 10px 10px;
+}

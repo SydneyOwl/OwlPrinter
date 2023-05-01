@@ -1,0 +1,14 @@
+<!--pages/text/text.wxml-->
+<view class="section">
+  <form bindsubmit="bindFormSubmit">
+    <view class="view-contain-ti">
+      <text class="text-ti">文本打印</text>
+      <textarea placeholder="想写点啥？" name="textarea" class="owls" maxlength="1000" />
+    </view>
+    <view id="chooseSMS" wx:if="{{isPhone}}">
+    <text style="font-size: xx-small;margin-right: 20px;width: 30vw;">是否接受打印结果短信通知？</text>
+    <view class="form-btn {{currentIndex==1?'form-active':''}}" id="1" bindtap="ok">允许</view>
+    <view class="form-btn {{currentIndex==2?'form-active':''}}" id="2" bindtap="ok" style="float: right;">拒绝</view></view>
+    <button form-type="submit"> 提交 </button>
+  </form>
+</view>

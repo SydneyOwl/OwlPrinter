@@ -1,0 +1,15 @@
+<!--pages/print/print.wxml-->
+<view id="but">
+  <button class='btn1' bindtap="goText">
+    <image class='btnImg' src='../../resources/img/texts.png'></image>
+    <view>文字打印</view>
+  </button>
+  <button class='btn1' bindtap="goPic">
+    <image class='btnImg' src='../../resources/img/image.png'></image>
+    <view>图片打印</view>
+  </button>
+</view>
+<view id="remind" bindtap="remindUsage">
+  点我查看提醒
+</view>
+<view style="font-size: 10%;position: relative;bottom: 0vh;text-align: center;">Ver 1.3.5</view>

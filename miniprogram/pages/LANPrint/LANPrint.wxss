@@ -1,0 +1,62 @@
+/* pages/print/print.wxss */
+
+
+.btn1 {
+width: 80%;
+margin-top: 50rpx;
+background-color: burlywood;
+color: white;
+border-radius: 98rpx;
+display: flex;
+flex-direction: row;
+align-items: center;
+justify-content: center;
+}
+open-data{
+font-weight: bold;
+font-family:'Times New Roman', Times, serif;
+}
+.btnImg {
+margin-right: 15rpx;
+width: 46rpx;
+height: 46rpx;
+}
+.welcome{
+font-size: small;
+}
+
+#view {
+position: absolute;
+bottom: 0;
+font-size:xx-small;
+}
+
+#but {
+width: 300px;
+margin: 20vh auto;
+text-align: center;
+/*设置文本水平居中*/
+padding: 50px 20px;
+}
+
+.owl {
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.text_user {
+width: 70vw;
+margin: 20px 20px;
+}
+.printDetail{
+margin: 3px auto;
+font-size: 80%;
+}
+#remind{
+font-size: small;
+text-align: center;
+color: palevioletred;
+position: relative;
+bottom: 10vh;
+}

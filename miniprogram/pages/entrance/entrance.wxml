@@ -1,0 +1,9 @@
+<!--pages/entrance.wxml-->
+<view id="container">
+  <view id="auth">
+    <image id="owl" src="../../resources/img/login.png"></image>
+    <button class="login_btn" type="default" lang="zh_CN" bindtap="authorization" style="display: none;">开始使用Owl Printer！</button>
+    <button class="login_btn" type="default" lang="zh_CN" bindtap="insideUse">局域网内使用Owl Thermal Printer！</button>
+    <!-- <text id="text"></text> -->
+  </view>
+</view>

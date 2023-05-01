@@ -1,0 +1,17 @@
+{
+  "pages": [
+    "pages/entrance/entrance",
+    "pages/text/text",
+    "pages/pic/pic",
+    "pages/LANPrint/LANPrint"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#fff",
+    "navigationBarTitleText": "PrinterOption",
+    "navigationBarTextStyle": "black"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "lazyCodeLoading": "requiredComponents"
+}

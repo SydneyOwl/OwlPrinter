@@ -1,0 +1,43 @@
+/* pages/entrance.wxss */
+.login_btn {
+  display: flex;
+  border-radius: 80rpx;
+  margin: 40rpx auto;
+  margin-bottom: 40px;
+  height:50px;
+  align-items: center;
+  justify-content: center;
+  font-size: 12px;
+}
+
+#owl {
+  width: 480rpx;
+  height: 320rpx;
+}
+
+#note {
+  width: 100%;
+  position: absolute;
+  bottom: 0px;
+  font-size: xx-small;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+view {
+  text-align: center;
+}
+
+#auth {
+  width: 100%;
+  margin:10vh auto;
+  text-align: center;
+  padding: 50px 20px;
+}
+#container{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
